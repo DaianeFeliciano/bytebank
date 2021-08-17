@@ -32,6 +32,9 @@ public class TestaMetodo {
         System.out.println(contaDaDaiane.saldo);
         System.out.println(contaDoVictor.saldo);
 
+        contaDaDaiane.titular = "Daiane F";
+        System.out.println(contaDaDaiane.titular);
+
 
     }
 

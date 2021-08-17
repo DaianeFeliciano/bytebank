@@ -2,10 +2,10 @@ package bytebankdois;
 
 public class Conta {
     // valor padrao 0
-    double saldo;
+    private double saldo;
     int agencia;
     int numero;
-    String titular;
+    Cliente titular;
 
 // metodo sem retorno
     public void deposita(double valor) {
@@ -34,6 +34,11 @@ public class Conta {
         }
         return false;
 
+    }
+
+    public double getSaldo() {
+
+        return this.saldo;
     }
 
 }
